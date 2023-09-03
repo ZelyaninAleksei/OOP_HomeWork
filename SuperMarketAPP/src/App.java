@@ -1,5 +1,3 @@
-import javax.swing.Action;
-
 import Classes.Market;
 import Classes.OrdinaryClient;
 import Classes.Promo;
@@ -53,8 +51,5 @@ public class App {
         System.out.println("Количесвто возвратов денежных средcтв " + Market.countReturn + " раз(а)");
         System.out.println("Количество замен товара (заказов) " + Market.countReplacement + " раз(а)");
     
-    }
-
-    private static void If(boolean b) {
     }
 }
